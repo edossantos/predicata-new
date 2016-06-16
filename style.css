@@ -1,0 +1,2056 @@
+/* Variables */
+/* Images */
+/* Colors */
+/* Font */
+/* Styles List */
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spinCustomerServer {
+  to {
+    -ms-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-moz-keyframes spinCustomerServer {
+  to {
+    -moz-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-webkit-keyframes spinCustomerServer {
+  to {
+    -webkit-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-ms-keyframes spinHospitalSupply {
+  from {
+    -ms-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes spinHospitalSupply {
+  from {
+    -moz-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+  to {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes spinHospitalSupply {
+  from {
+    -webkit-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-ms-keyframes spinHospitalSupply {
+  to {
+    -ms-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-moz-keyframes spinHospitalSupply {
+  to {
+    -moz-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-webkit-keyframes spinHospitalSupply {
+  to {
+    -webkit-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+/* New Spins with from to */
+@-ms-keyframes fromHospitalToRisk {
+  from {
+    -ms-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-moz-keyframes fromHospitalToRisk {
+  from {
+    -moz-transform: rotate(130deg);
+  }
+}
+@-webkit-keyframes fromHospitalToRisk {
+  from {
+    -webkit-transform: rotate(130deg);
+    transform: rotate(130deg);
+  }
+}
+@-ms-keyframes spinFromRiskToHospital {
+  to {
+    -ms-transform: rotate(-248.5deg);
+    transform: rotate(-248.5deg);
+  }
+}
+@-moz-keyframes spinFromRiskToHospital {
+  to {
+    -moz-transform: rotate(-248.5deg);
+  }
+}
+@-webkit-keyframes spinFromRiskToHospital {
+  to {
+    -webkit-transform: rotate(-248.5deg);
+    transform: rotate(-248.5deg);
+  }
+}
+@-ms-keyframes spinFromRiskToCustomer {
+  to {
+    -ms-transform: rotate(-136.6deg);
+    transform: rotate(-136.6deg);
+  }
+}
+@-moz-keyframes spinFromRiskToCustomer {
+  to {
+    -moz-transform: rotate(-136.6deg);
+  }
+}
+@-webkit-keyframes spinFromRiskToCustomer {
+  to {
+    -webkit-transform: rotate(-136.6deg);
+    transform: rotate(-136.6deg);
+  }
+}
+@-ms-keyframes spinFromHospitalToCustomer {
+  from {
+    -ms-transform: rotate(117.5deg);
+    transform: rotate(117.5deg);
+  }
+  to {
+    -ms-transform: rotate(223.5deg);
+    transform: rotate(223.5deg);
+  }
+}
+@-moz-keyframes spinFromHospitalToCustomer {
+  from {
+    -moz-transform: rotate(117.5deg);
+  }
+  to {
+    -moz-transform: rotate(223.5deg);
+  }
+}
+@-webkit-keyframes spinFromHospitalToCustomer {
+  from {
+    -webkit-transform: rotate(117.5deg);
+    transform: rotate(117.5deg);
+  }
+  to {
+    -webkit-transform: rotate(223.5deg);
+    transform: rotate(223.5deg);
+  }
+}
+@-ms-keyframes spinFromHospitalToRisk {
+  from {
+    -ms-transform: rotate(117.5deg);
+    transform: rotate(117.5deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinFromHospitalToRisk {
+  from {
+    -moz-transform: rotate(117.5deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spinFromHospitalToRisk {
+  from {
+    -webkit-transform: rotate(117.5deg);
+    transform: rotate(117.5deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spinFromCustomerToRisk {
+  from {
+    -ms-transform: rotate(-125.5deg);
+    transform: rotate(-125.5deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes spinFromCustomerToRisk {
+  from {
+    -moz-transform: rotate(-125.5deg);
+  }
+  to {
+    -moz-transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes spinFromCustomerToRisk {
+  from {
+    -webkit-transform: rotate(-125.5deg);
+    transform: rotate(-125.5deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-ms-keyframes spinFromCustomerToHospital {
+  from {
+    -webkit-transform: rotate(-136deg);
+    transform: rotate(-136deg);
+  }
+  to {
+    -webkit-transform: rotate(-248deg);
+    transform: rotate(-248deg);
+  }
+}
+@-moz-keyframes spinFromCustomerToHospital {
+  from {
+    -moz-transform: rotate(-136deg);
+  }
+  to {
+    -moz-transform: rotate(-248deg);
+  }
+}
+@-webkit-keyframes spinFromCustomerToHospital {
+  from {
+    -webkit-transform: rotate(-136deg);
+    transform: rotate(-136deg);
+  }
+  to {
+    -webkit-transform: rotate(-248deg);
+    transform: rotate(-248deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+body {
+  background: #fff;
+}
+section.predicata-spinner {
+  position: absolute;
+  top: 15%;
+  right: 35%;
+  height: 410px;
+  width: 410px;
+  background: white;
+}
+section.predicata-spinner.spinning .rings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 800ms ease;
+  opacity: 0.15;
+  -webkit-transform-style: flat;
+  -webkit-transform: scale(0.2) rotateZ(-300deg);
+  transform: scale(0.2) rotateZ(-300deg);
+}
+section.predicata-spinner.spinning .rings .ring {
+  display: block;
+  top: 44%;
+  left: 44%;
+  pointer-events: none;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: none;
+  -webkit-animation-delay: 700ms;
+  -webkit-animation-name: spin;
+}
+section.predicata-spinner.spinning .rings .ring.ring-one {
+  -webkit-animation-direction: reverse;
+  -webkit-animation-duration: 70s;
+  background-image: url("img/dot-green-circle2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 410px;
+  width: 410px;
+}
+section.predicata-spinner.spinning .rings .ring.ring-two {
+  position: absolute;
+  background: #212870;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: -158px 0 0 -158px;
+  height: 366px;
+  width: 366px;
+  border-radius: 100%;
+}
+section.predicata-spinner.spinning .rings .ring.ring-three {
+  position: absolute;
+  background: #336699;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: -147px 0 0 -148px;
+  height: 343px;
+  width: 343px;
+  border: 1px solid #336699;
+  border-radius: 100%;
+}
+section.predicata-spinner.spinning .rings .ring.ring-four {
+  position: absolute;
+  background-image: url("img/dial-white-circle2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: -180px 0 0 -181px;
+  height: 410px;
+  width: 410px;
+  -webkit-animation-duration: 70s;
+}
+section.predicata-spinner.spinning .rings .ring.ring-five {
+  position: absolute;
+  background: #212870;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: -109px 0 0 -109px;
+  height: 265px;
+  width: 265px;
+  border-radius: 100%;
+  border: 1px solid #212870;
+}
+section.predicata-spinner.spinning .rings.loaded {
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(0);
+  transform: scale(1) rotateZ(0);
+}
+section.predicata-spinner .spinner-content {
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  -webkit-font-smoothing: antialiased;
+  transition: all 360ms ease;
+  opacity: 0;
+  -webkit-transform: scale(0.95) translateY(-10px);
+  transform: scale(0.95) translateY(-10px);
+}
+section.predicata-spinner .spinner-content .content-wrapper {
+  display: table;
+  height: 200px;
+  width: 200px;
+}
+section.predicata-spinner .spinner-content .content-wrapper .content {
+  display: table-cell;
+  height: 200px;
+  width: 200px;
+  padding: 0px;
+  vertical-align: middle;
+}
+section.predicata-spinner .spinner-content .content-wrapper .content .content-style {
+  position: relative;
+  z-index: 99999;
+}
+section.predicata-spinner .spinner-content .content-wrapper .content .content-style span {
+  font-size: 19px;
+  margin-bottom: 15px;
+  display: block;
+  color: #ffffff;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: 500;
+}
+section.predicata-spinner .spinner-content .content-wrapper .content .content-style .learn-more-btn {
+  display: table;
+  width: 118px;
+  height: 29px;
+  margin: 0 auto;
+}
+section.predicata-spinner .spinner-content .content-wrapper .content .content-style .learn-more-btn .learn-more {
+  display: table-cell;
+  width: 118px;
+  height: 29px;
+  text-align: center;
+  vertical-align: middle;
+  background: #99cc66;
+  border-radius: 7px;
+}
+section.predicata-spinner .spinner-content .content-wrapper .content .content-style .learn-more-btn .learn-more a.learn-more-btn {
+  display: table-cell;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  width: 118px;
+  height: 29px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+section.predicata-spinner .spinner-content.active {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+#circles-wrapper {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 410px;
+  width: 410px;
+  background: transparent;
+  transition: all 200ms ease;
+  opacity: 0;
+  -webkit-transform: scale(0.95) translateY(-10px);
+  transform: scale(0.95) translateY(-10px);
+  transition-delay: 100ms;
+  /* import each of the circle by files */
+}
+#circles-wrapper .risk-management {
+  position: absolute;
+  top: -3%;
+  left: 35%;
+  width: 274px;
+  height: 204px;
+}
+#circles-wrapper .risk-management .mini-circle {
+  /* Display None for now since the Risk management is active */
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+  cursor: pointer;
+  background: #212870;
+  width: 105px;
+  height: 105px;
+  border-radius: 80px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: table;
+}
+#circles-wrapper .risk-management .mini-circle .circle-content {
+  display: table-cell;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .risk-management .mini-circle .circle-content span.text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+}
+#circles-wrapper .risk-management .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+}
+#circles-wrapper .risk-management .full-circle-wrapper a.full-circle {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  text-decoration: none;
+  background: #99cc66;
+  width: 158px;
+  height: 158px;
+  border-radius: 90px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+  position: absolute;
+  top: -30px;
+}
+#circles-wrapper .risk-management .full-circle-wrapper a.full-circle .circle-content {
+  display: table-cell;
+  width: 158px;
+  height: 158px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .risk-management .full-circle-wrapper a.full-circle .circle-content span.big-circle-text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #212870;
+}
+#circles-wrapper .risk-management .children-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper .risk-management .children-wrapper .child {
+  background: #99cc66;
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  display: table;
+  transition: all 300ms ease;
+}
+#circles-wrapper .risk-management .children-wrapper .child a.circle-content {
+  display: table-cell;
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+}
+#circles-wrapper .risk-management .children-wrapper .child a.circle-content span {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  color: #333366;
+}
+#circles-wrapper .risk-management .children-wrapper .child.circle-top-child {
+  z-index: 2;
+  position: absolute;
+  left: 42%;
+  top: -44%;
+}
+#circles-wrapper .hospital-supply {
+  position: absolute;
+  top: 54%;
+  left: -4%;
+  width: 274px;
+  height: 204px;
+}
+#circles-wrapper .hospital-supply .mini-circle {
+  /* Display None for now since the Risk management is active */
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+  background: #212870;
+  width: 105px;
+  height: 105px;
+  border-radius: 80px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: table;
+  cursor: pointer;
+}
+#circles-wrapper .hospital-supply .mini-circle .circle-content {
+  display: table-cell;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .hospital-supply .mini-circle .circle-content span.text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+}
+#circles-wrapper .hospital-supply .mini-circle.active {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+}
+#circles-wrapper .hospital-supply .full-circle-wrapper a.full-circle {
+  text-decoration: none;
+  background: #99cc66;
+  width: 158px;
+  height: 158px;
+  border-radius: 90px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+  position: absolute;
+  top: -54px;
+  left: -23px;
+}
+#circles-wrapper .hospital-supply .full-circle-wrapper a.full-circle .circle-content {
+  display: table-cell;
+  width: 158px;
+  height: 158px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .hospital-supply .full-circle-wrapper a.full-circle .circle-content span.big-circle-text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #212870;
+  margin: 4px;
+}
+#circles-wrapper .hospital-supply .full-circle-wrapper.active {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper .hospital-supply .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper .hospital-supply .children-wrapper .child {
+  background: #99cc66;
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  display: table;
+  transition: all 300ms ease;
+}
+#circles-wrapper .hospital-supply .children-wrapper .child a.circle-content {
+  display: table-cell;
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+}
+#circles-wrapper .hospital-supply .children-wrapper .child a.circle-content span {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  color: #333366;
+}
+#circles-wrapper .hospital-supply .children-wrapper .child.circle-top-child {
+  z-index: 2;
+  position: absolute;
+  left: -43%;
+  top: 3%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper .hospital-supply .children-wrapper .child.circle-middle-child {
+  z-index: 2;
+  position: absolute;
+  left: -41%;
+  top: -53%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper .hospital-supply .children-wrapper .child.circle-bottom-child {
+  z-index: 2;
+  position: absolute;
+  left: -7%;
+  top: -85%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper .customer-care {
+  position: absolute;
+  top: 67%;
+  left: 67%;
+  width: 274px;
+  height: 204px;
+}
+#circles-wrapper .customer-care .mini-circle {
+  /* Display None for now since the Risk management is active */
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+  background: #212870;
+  width: 105px;
+  height: 105px;
+  border-radius: 80px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: table;
+  cursor: pointer;
+}
+#circles-wrapper .customer-care .mini-circle .circle-content {
+  display: table-cell;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .customer-care .mini-circle .circle-content span.text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+}
+#circles-wrapper .customer-care .mini-circle.active {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper .customer-care .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+}
+#circles-wrapper .customer-care .full-circle-wrapper a.full-circle {
+  text-decoration: none;
+  background: #99cc66;
+  width: 158px;
+  height: 158px;
+  border-radius: 90px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+  position: absolute;
+  top: -18px;
+  left: -52px;
+}
+#circles-wrapper .customer-care .full-circle-wrapper a.full-circle .circle-content {
+  display: table-cell;
+  width: 158px;
+  height: 158px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .customer-care .full-circle-wrapper a.full-circle .circle-content span.big-circle-text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #212870;
+  margin: 4px;
+}
+#circles-wrapper .customer-care .full-circle-wrapper.active {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper .customer-care .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper .customer-care .children-wrapper .child {
+  background: #99cc66;
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  display: table;
+  transition: all 300ms ease;
+}
+#circles-wrapper .customer-care .children-wrapper .child .circle-content {
+  display: table-cell;
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+  text-align: center;
+}
+#circles-wrapper .customer-care .children-wrapper .child .circle-content a {
+  text-decoration: none;
+}
+#circles-wrapper .customer-care .children-wrapper .child .circle-content a span {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  color: #333366;
+}
+#circles-wrapper .customer-care .children-wrapper .child.circle-top-child {
+  z-index: 2;
+  position: absolute;
+  left: 17%;
+  top: 41%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-223deg);
+}
+#circles-wrapper .customer-care .children-wrapper .child.circle-middle-child {
+  z-index: 2;
+  position: absolute;
+  left: -23%;
+  top: 59%;
+  -webkit-transform: scale(1) rotateZ(-223deg);
+  transform: scale(1) rotateZ(-223deg);
+}
+#circles-wrapper .customer-care .children-wrapper .child.circle-bottom-child {
+  z-index: 2;
+  position: absolute;
+  left: -7%;
+  top: -85%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper.from-risk-to-hospital-turn {
+  -webkit-animation: spinFromRiskToHospital 0.4s ease;
+  -moz-animation: spinFromRiskToHospital 0.4s ease;
+  animation: spinFromRiskToHospital 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-delay: 0ms;
+  /* moz */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+#circles-wrapper.from-risk-to-hospital-turn .hospital-supply .mini-circle {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-risk-to-hospital-turn .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-risk-to-hospital-turn .hospital-supply .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+#circles-wrapper.from-risk-to-hospital-turn .hospital-supply .children-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-risk-to-hospital-turn .customer-care .mini-circle {
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+#circles-wrapper.from-risk-to-hospital-turn .risk-management .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+#circles-wrapper.from-risk-to-hospital-turn .risk-management .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-risk-to-hospital-turn .risk-management .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-risk-to-customer-turn {
+  -webkit-animation: spinFromRiskToCustomer 0.4s ease;
+  -moz-animation: spinFromRiskToCustomer 0.4s ease;
+  animation: spinFromRiskToCustomer 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+#circles-wrapper.from-risk-to-customer-turn .hospital-supply .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+#circles-wrapper.from-risk-to-customer-turn .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-risk-to-customer-turn .hospital-supply .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-risk-to-customer-turn .customer-care .mini-circle {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+#circles-wrapper.from-risk-to-customer-turn .customer-care .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-risk-to-customer-turn .customer-care .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+#circles-wrapper.from-risk-to-customer-turn .customer-care .children-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-risk-to-customer-turn .risk-management .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+#circles-wrapper.from-risk-to-customer-turn .risk-management .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-risk-to-customer-turn .risk-management .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-customer-turn {
+  -webkit-animation: spinFromHospitalToCustomer 0.4s ease;
+  -moz-animation: spinFromHospitalToCustomer 0.4s ease;
+  animation: spinFromHospitalToCustomer 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+#circles-wrapper.from-hospital-to-customer-turn .hospital-supply .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+#circles-wrapper.from-hospital-to-customer-turn .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-customer-turn .hospital-supply .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-customer-turn .customer-care .mini-circle {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+#circles-wrapper.from-hospital-to-customer-turn .customer-care .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-hospital-to-customer-turn .customer-care .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+#circles-wrapper.from-hospital-to-customer-turn .customer-care .children-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-hospital-to-customer-turn .risk-management .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+#circles-wrapper.from-hospital-to-customer-turn .risk-management .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-customer-turn .risk-management .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-risk-turn {
+  -webkit-animation: spinFromHospitalToRisk 0.4s ease;
+  -moz-animation: spinFromHospitalToRisk 0.4s ease;
+  animation: spinFromHospitalToRisk 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+#circles-wrapper.from-hospital-to-risk-turn .hospital-supply .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(360deg);
+  transform: scale(1) rotateZ(360deg);
+}
+#circles-wrapper.from-hospital-to-risk-turn .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-risk-turn .hospital-supply .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-risk-turn .customer-care .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(360deg);
+  transform: scale(1) rotateZ(360deg);
+}
+#circles-wrapper.from-hospital-to-risk-turn .customer-care .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-risk-turn .risk-management .mini-circle {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-hospital-to-risk-turn .risk-management .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-hospital-to-risk-turn .risk-management .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(0deg);
+  transform: scale(1) rotateZ(0deg);
+}
+#circles-wrapper.from-customer-to-risk-turn {
+  -webkit-animation: spinFromCustomerToRisk 0.4s ease;
+  -moz-animation: spinFromCustomerToRisk 0.4s ease;
+  animation: spinFromCustomerToRisk 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+#circles-wrapper.from-customer-to-risk-turn .hospital-supply .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(0deg);
+  transform: scale(1) rotateZ(0deg);
+}
+#circles-wrapper.from-customer-to-risk-turn .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-risk-turn .hospital-supply .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-risk-turn .customer-care .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-customer-to-risk-turn .customer-care .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-risk-turn .risk-management .mini-circle {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-risk-turn .risk-management .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-customer-to-risk-turn .risk-management .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(0deg);
+  transform: scale(1) rotateZ(0deg);
+}
+#circles-wrapper.from-customer-to-hospital-turn {
+  -webkit-animation: spinFromCustomerToHospital 0.4s ease;
+  -moz-animation: spinFromCustomerToHospital 0.4s ease;
+  animation: spinFromCustomerToHospital 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+#circles-wrapper.from-customer-to-hospital-turn .hospital-supply .mini-circle {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-hospital-turn .hospital-supply .full-circle-wrapper {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-customer-to-hospital-turn .hospital-supply .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper.from-customer-to-hospital-turn .hospital-supply .children-wrapper {
+  transition-delay: 310ms;
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+}
+#circles-wrapper.from-customer-to-hospital-turn .customer-care .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper.from-customer-to-hospital-turn .customer-care .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-hospital-turn .risk-management .mini-circle {
+  -moz-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(1 * 100))";
+  filter: "alpha(opacity= 1 * 100)";
+  zoom: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+#circles-wrapper.from-customer-to-hospital-turn .risk-management .full-circle-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.from-customer-to-hospital-turn .risk-management .children-wrapper {
+  -moz-opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(0 * 100))";
+  filter: "alpha(opacity= 0 * 100)";
+  zoom: 1;
+  opacity: 0;
+}
+#circles-wrapper.loaded {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+html.no-smil #circles-wrapper {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 410px;
+  width: 410px;
+  background: transparent;
+  transition: all 200ms ease;
+  opacity: 0;
+  -webkit-transform: scale(0.95) translateY(-10px);
+  transform: scale(0.95) translateY(-10px);
+  transition-delay: 100ms;
+  /* import each of the circle by files */
+}
+html.no-smil #circles-wrapper .risk-management {
+  position: absolute;
+  top: -3%;
+  left: 35%;
+  width: 274px;
+  height: 204px;
+}
+html.no-smil #circles-wrapper .risk-management .mini-circle {
+  /* Display None for now since the Risk management is active */
+  display: none;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+  cursor: pointer;
+  background: #212870;
+  width: 105px;
+  height: 105px;
+  border-radius: 80px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: table;
+}
+html.no-smil #circles-wrapper .risk-management .mini-circle .circle-content {
+  display: table-cell;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .risk-management .mini-circle .circle-content span.text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+html.no-smil #circles-wrapper .risk-management .full-circle-wrapper {
+  display: block;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+}
+html.no-smil #circles-wrapper .risk-management .full-circle-wrapper a.full-circle {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  text-decoration: none;
+  background: #99cc66;
+  width: 158px;
+  height: 158px;
+  border-radius: 90px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+  position: absolute;
+  top: -30px;
+}
+html.no-smil #circles-wrapper .risk-management .full-circle-wrapper a.full-circle .circle-content {
+  display: table-cell;
+  width: 158px;
+  height: 158px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .risk-management .full-circle-wrapper a.full-circle .circle-content span.big-circle-text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #212870;
+}
+html.no-smil #circles-wrapper .risk-management .children-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper .risk-management .children-wrapper .child {
+  background: #99cc66;
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  display: table;
+  transition: all 300ms ease;
+}
+html.no-smil #circles-wrapper .risk-management .children-wrapper .child a.circle-content {
+  display: table-cell;
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+}
+html.no-smil #circles-wrapper .risk-management .children-wrapper .child a.circle-content span {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  color: #333366;
+}
+html.no-smil #circles-wrapper .risk-management .children-wrapper .child.circle-top-child {
+  z-index: 2;
+  position: absolute;
+  left: 42%;
+  top: -44%;
+}
+html.no-smil #circles-wrapper .hospital-supply {
+  position: absolute;
+  top: 54%;
+  left: -4%;
+  width: 274px;
+  height: 204px;
+}
+html.no-smil #circles-wrapper .hospital-supply .mini-circle {
+  /* Display None for now since the Risk management is active */
+  display: block;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+  background: #212870;
+  width: 105px;
+  height: 105px;
+  border-radius: 80px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: table;
+  cursor: pointer;
+}
+html.no-smil #circles-wrapper .hospital-supply .mini-circle .circle-content {
+  display: table-cell;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .hospital-supply .mini-circle .circle-content span.text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+html.no-smil #circles-wrapper .hospital-supply .mini-circle.active {
+  display: block;
+}
+html.no-smil #circles-wrapper .hospital-supply .full-circle-wrapper {
+  display: none;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+}
+html.no-smil #circles-wrapper .hospital-supply .full-circle-wrapper a.full-circle {
+  text-decoration: none;
+  background: #99cc66;
+  width: 158px;
+  height: 158px;
+  border-radius: 90px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+  position: absolute;
+  top: -54px;
+  left: -23px;
+}
+html.no-smil #circles-wrapper .hospital-supply .full-circle-wrapper a.full-circle .circle-content {
+  display: table-cell;
+  width: 158px;
+  height: 158px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .hospital-supply .full-circle-wrapper a.full-circle .circle-content span.big-circle-text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #212870;
+  margin: 4px;
+}
+html.no-smil #circles-wrapper .hospital-supply .full-circle-wrapper.active {
+  display: block;
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper .child {
+  background: #99cc66;
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  display: table;
+  transition: all 300ms ease;
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper .child a.circle-content {
+  display: table-cell;
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper .child a.circle-content span {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  color: #333366;
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper .child.circle-top-child {
+  z-index: 2;
+  position: absolute;
+  left: -43%;
+  top: 3%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper .child.circle-middle-child {
+  z-index: 2;
+  position: absolute;
+  left: -41%;
+  top: -53%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper .hospital-supply .children-wrapper .child.circle-bottom-child {
+  z-index: 2;
+  position: absolute;
+  left: -7%;
+  top: -85%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper .customer-care {
+  position: absolute;
+  top: 67%;
+  left: 67%;
+  width: 274px;
+  height: 204px;
+}
+html.no-smil #circles-wrapper .customer-care .mini-circle {
+  /* Display None for now since the Risk management is active */
+  display: block;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+  background: #212870;
+  width: 105px;
+  height: 105px;
+  border-radius: 80px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: table;
+  cursor: pointer;
+}
+html.no-smil #circles-wrapper .customer-care .mini-circle .circle-content {
+  display: table-cell;
+  width: 105px;
+  height: 105px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .customer-care .mini-circle .circle-content span.text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+html.no-smil #circles-wrapper .customer-care .mini-circle.active {
+  display: block;
+}
+html.no-smil #circles-wrapper .customer-care .full-circle-wrapper {
+  display: none;
+  -webkit-transition-duration: 200ms;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease;
+}
+html.no-smil #circles-wrapper .customer-care .full-circle-wrapper a.full-circle {
+  text-decoration: none;
+  background: #99cc66;
+  width: 158px;
+  height: 158px;
+  border-radius: 90px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+  position: absolute;
+  top: -18px;
+  left: -52px;
+}
+html.no-smil #circles-wrapper .customer-care .full-circle-wrapper a.full-circle .circle-content {
+  display: table-cell;
+  width: 158px;
+  height: 158px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .customer-care .full-circle-wrapper a.full-circle .circle-content span.big-circle-text {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #212870;
+  margin: 4px;
+}
+html.no-smil #circles-wrapper .customer-care .full-circle-wrapper.active {
+  display: block;
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child {
+  background: #99cc66;
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  display: table;
+  transition: all 300ms ease;
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child .circle-content {
+  display: table-cell;
+  width: 128px;
+  height: 128px;
+  vertical-align: middle;
+  text-align: center;
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child .circle-content a {
+  text-decoration: none;
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child .circle-content a span {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15.7px;
+  color: #333366;
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child.circle-top-child {
+  z-index: 2;
+  position: absolute;
+  left: 17%;
+  top: 41%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-223deg);
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child.circle-middle-child {
+  z-index: 2;
+  position: absolute;
+  left: -23%;
+  top: 59%;
+  -webkit-transform: scale(1) rotateZ(-223deg);
+  transform: scale(1) rotateZ(-223deg);
+}
+html.no-smil #circles-wrapper .customer-care .children-wrapper .child.circle-bottom-child {
+  z-index: 2;
+  position: absolute;
+  left: -7%;
+  top: -85%;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn {
+  -webkit-animation: spinFromRiskToHospital 0.4s ease;
+  -moz-animation: spinFromRiskToHospital 0.4s ease;
+  animation: spinFromRiskToHospital 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-delay: 0ms;
+  /* moz */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .hospital-supply .mini-circle {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .hospital-supply .full-circle-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .hospital-supply .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .hospital-supply .children-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .customer-care .mini-circle {
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .risk-management .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .risk-management .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-risk-to-hospital-turn .risk-management .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn {
+  -webkit-animation: spinFromRiskToCustomer 0.4s ease;
+  -moz-animation: spinFromRiskToCustomer 0.4s ease;
+  animation: spinFromRiskToCustomer 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .hospital-supply .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .hospital-supply .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .hospital-supply .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .customer-care .mini-circle {
+  display: none;
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .customer-care .full-circle-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .customer-care .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .customer-care .children-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .risk-management .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .risk-management .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-risk-to-customer-turn .risk-management .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn {
+  -webkit-animation: spinFromHospitalToCustomer 0.4s ease;
+  -moz-animation: spinFromHospitalToCustomer 0.4s ease;
+  animation: spinFromHospitalToCustomer 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .hospital-supply .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .hospital-supply .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .hospital-supply .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .customer-care .mini-circle {
+  display: none;
+  -webkit-transform: scale(1) rotateZ(248deg);
+  transform: scale(1) rotateZ(248deg);
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .customer-care .full-circle-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .customer-care .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .customer-care .children-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .risk-management .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(137deg);
+  transform: scale(1) rotateZ(137deg);
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .risk-management .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-customer-turn .risk-management .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn {
+  -webkit-animation: spinFromHospitalToRisk 0.4s ease;
+  -moz-animation: spinFromHospitalToRisk 0.4s ease;
+  animation: spinFromHospitalToRisk 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .hospital-supply .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(360deg);
+  transform: scale(1) rotateZ(360deg);
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .hospital-supply .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .hospital-supply .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .customer-care .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(360deg);
+  transform: scale(1) rotateZ(360deg);
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .customer-care .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .risk-management .mini-circle {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .risk-management .full-circle-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-hospital-to-risk-turn .risk-management .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(0deg);
+  transform: scale(1) rotateZ(0deg);
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn {
+  -webkit-animation: spinFromCustomerToRisk 0.4s ease;
+  -moz-animation: spinFromCustomerToRisk 0.4s ease;
+  animation: spinFromCustomerToRisk 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .hospital-supply .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(0deg);
+  transform: scale(1) rotateZ(0deg);
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .hospital-supply .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .hospital-supply .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .customer-care .mini-circle {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .customer-care .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .risk-management .mini-circle {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .risk-management .full-circle-wrapper {
+  display: block;
+}
+html.no-smil #circles-wrapper.from-customer-to-risk-turn .risk-management .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(0deg);
+  transform: scale(1) rotateZ(0deg);
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn {
+  -webkit-animation: spinFromCustomerToHospital 0.4s ease;
+  -moz-animation: spinFromCustomerToHospital 0.4s ease;
+  animation: spinFromCustomerToHospital 0.4s ease;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -ms-animation-delay: 0ms;
+  /* ms */
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -moz-animation-delay: 0ms;
+  /* moz */
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 0ms;
+  /* Chrome, Safari, Opera */
+  animation-delay: 0ms;
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .hospital-supply .mini-circle {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .hospital-supply .full-circle-wrapper {
+  transition-delay: 300ms;
+  display: block;
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .hospital-supply .full-circle-wrapper .full-circle {
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .hospital-supply .children-wrapper {
+  transition-delay: 310ms;
+  display: block;
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .customer-care .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .customer-care .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .risk-management .mini-circle {
+  display: block;
+  -webkit-transform: scale(1) rotateZ(-112deg);
+  transform: scale(1) rotateZ(-112deg);
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .risk-management .full-circle-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.from-customer-to-hospital-turn .risk-management .children-wrapper {
+  display: none;
+}
+html.no-smil #circles-wrapper.loaded {
+  opacity: 1;
+  -ms-transform: none;
+  -moz-transform: none;
+  -webkit-transform: none;
+  transform: none;
+}
+/*# sourceMappingURL=main.css.map */

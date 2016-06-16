@@ -1,0 +1,104 @@
+.risk-management{
+  position: absolute;
+  top: -3%;
+  left: 35%;
+  width: 274px;
+  height: 204px;
+  .mini-circle{
+    /* Display None for now since the Risk management is active */
+    .opacity (0);
+    -webkit-transition-duration: 200ms;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    cursor: pointer;
+    background: @mini-circle-background-color;
+    width: 105px;
+    height: 105px;
+    border-radius: 80px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    //border: 3px solid #fff;
+    display: table;
+    .circle-content {
+      display: table-cell;
+      width: 105px;
+      height: 105px;
+      vertical-align: middle;
+      text-align: center;
+      span.text {
+        font-family: @calibre-font;
+        font-weight: bold;
+        font-size: 13px;
+        color: @mini-circle-text-color;
+      }
+    }
+  }
+  .full-circle-wrapper {
+    .opacity (1);
+    -webkit-transition-duration: 200ms;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    a.full-circle{
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      text-decoration: none;
+      background: #99cc66;
+      width: 158px;
+      height: 158px;
+      border-radius: 90px;
+      z-index: 2;
+      //border: 3px solid #fff;
+      display: table;
+      cursor: pointer;
+      position: absolute;
+      top: -30px;
+      .circle-content{
+        display: table-cell;
+        width: 158px;
+        height: 158px;
+        vertical-align: middle;
+        text-align: center;
+        span.big-circle-text {
+          font-family: @calibre-font;
+          font-weight: bold;
+          font-size: 22px;
+          color: @circle-content-blue;
+        }
+      }
+    }
+  }
+  .children-wrapper{
+    .opacity (1);
+    .child{
+      background: #99cc66;
+      width: 128px;
+      height: 128px;
+      border-radius: 70px;
+      //border: 3px solid #fff;
+      display: table;
+      transition: all 300ms ease;
+      a.circle-content {
+        display: table-cell;
+        width: 128px;
+        height: 128px;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        span {
+            font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+            font-weight: bold;
+            font-size: 15.7px;
+            color: #333366;
+        }
+      }
+      &.circle-top-child{
+        z-index: 2;
+        position: absolute;
+        left: 42%;
+        top: -44%;
+      }
+
+    }
+  }
+}

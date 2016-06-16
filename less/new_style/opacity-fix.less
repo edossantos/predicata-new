@@ -1,0 +1,7 @@
+.opacity (@opacity) {
+  -moz-opacity: @opacity;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(@{opacity} * 100))";
+  filter: "alpha(opacity= @{opacity} * 100)";
+  zoom:1;
+  opacity: @opacity;
+}

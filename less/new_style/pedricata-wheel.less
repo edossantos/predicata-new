@@ -1,0 +1,185 @@
+body{
+  background: #fff;
+}
+section.predicata-spinner{
+  position: absolute;
+  top: 15%;
+  right: 35%;
+  height: 410px;
+  width: 410px;
+  background: white;
+
+  &.spinning{
+    .rings{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      transition: all 800ms ease;
+      opacity: 0.15;
+      -webkit-transform-style: flat;
+      -webkit-transform: scale(0.2) rotateZ(-300deg);
+      transform: scale(0.2) rotateZ(-300deg);
+      .ring{
+        display: block;
+        top: 44%;
+        left: 44%;
+        pointer-events: none;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-fill-mode: none;
+        -webkit-animation-delay: 700ms;
+        -webkit-animation-name: spin;
+        &.ring-one{
+          -webkit-animation-direction: reverse;
+          -webkit-animation-duration: 70s;
+          background-image: url(@dot-green-circle);
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 410px;
+          width: 410px;
+        }
+        &.ring-two{
+//          position: absolute;
+//          background-image: url(@large-blue-circle);
+//          background-repeat: no-repeat;
+//          background-position: center center;
+//          margin: -180px 0 0 -181px;
+//          height: 410px;
+//          width: 410px;
+          position: absolute;
+          background: @circle-blue-dark;
+          background-repeat: no-repeat;
+          background-position: center center;
+          margin: -158px 0 0 -158px;
+          height: 366px;
+          width: 366px;
+          border-radius: 100%;
+        }
+        &.ring-three{
+//          position: absolute;
+//          background-image: url(@medium-light-blue-circle);
+//          background-repeat: no-repeat;
+//          background-position: center center;
+//          margin: -180px 0 0 -181px;
+//          height: 410px;
+//          width: 410px;
+          position: absolute;
+          background: @circle-skyblue;
+          background-repeat: no-repeat;
+          background-position: center center;
+          margin: -147px 0 0 -148px;
+          height: 343px;
+          width: 343px;
+          border: 1px solid @circle-skyblue;
+          border-radius: 100%;
+
+        }
+        &.ring-four{
+          position: absolute;
+          background-image: url(@dial-white-circle);
+          background-repeat: no-repeat;
+          background-position: center center;
+          margin: -180px 0 0 -181px;
+          height: 410px;
+          width: 410px;
+          -webkit-animation-duration: 70s;
+        }
+        &.ring-five{
+//          position: absolute;
+//          background-image: url(@small-blue-circle);
+//          background-repeat: no-repeat;
+//          background-position: center center;
+//          margin: -180px 0 0 -181px;
+//          height: 410px;
+//          width: 410px;
+          position: absolute;
+          background: @circle-blue-dark;
+          background-repeat: no-repeat;
+          background-position: center center;
+          margin: -109px 0 0 -109px;
+          height: 265px;
+          width: 265px;
+          border-radius: 100%;
+          border: 1px solid @circle-blue-dark;
+        }
+      }
+      &.loaded{
+        opacity: 1;
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+      }
+    }
+  }
+  .spinner-content{
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    -webkit-font-smoothing: antialiased;
+    transition: all 360ms ease;
+    opacity: 0;
+    -webkit-transform: scale(0.95) translateY(-10px);
+    transform: scale(0.95) translateY(-10px);
+
+    .content-wrapper{
+      display: table;
+      height: 200px;
+      width: 200px;
+      .content{
+        display: table-cell;
+        height: 200px;
+        width: 200px;
+        padding: 0px;
+        vertical-align: middle;
+        .content-style{
+          position: relative;
+          z-index: 99999;
+          span {
+            font-size: 19px;
+            margin-bottom: 15px;
+            display: block;
+            color: @white;
+            font-family: @calibre-font;
+            font-weight: 500;
+          }
+          .learn-more-btn{
+            display: table;
+            width: 118px;
+            height: 29px;
+            margin: 0 auto;
+            .learn-more{
+              display: table-cell;
+              width: 118px;
+              height: 29px;
+              text-align: center;
+              vertical-align: middle;
+              background: @light-green;
+              border-radius: 7px;
+              a.learn-more-btn{
+                display: table-cell;
+                cursor: pointer;
+                text-align: center;
+                vertical-align: middle;
+                width: 118px;
+                height: 29px;
+                color: #ffffff;
+                text-decoration: none;
+                font-family: @calibre-font;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.active{
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+}

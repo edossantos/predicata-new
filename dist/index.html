@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Predicata</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/lib/modernizr-2.7.1.min.js"></script>
+</head>
+<body>
+<section class="predicata-spinner spinning">
+	<div class="rings">
+		<span class="ring ring-one"></span>
+		<span class="ring ring-two"></span>
+	    <div class="ring ring-three"></div>
+		<span class="ring ring-four"></span>
+		<div class="ring ring-five"></div>
+	</div>
+	<div id="circles-wrapper">
+        <div class="risk-management active" data-turn="">
+            <div class="mini-circle">
+                <div class="circle-content">
+                    <span class="text">Cost</span>
+                </div>
+            </div>
+            <div class="full-circle-wrapper">
+                <a class="full-circle risk" data-section="risk" href="">
+                    <div class="circle-content">
+                        <span class="big-circle-text">Cost</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="hospital-supply" data-turn="from-risk-to-hospital-turn">
+                <div class="mini-circle">
+                    <div class="circle-content">
+                        <span class="text">Quality</span>
+                    </div>
+                </div>
+                <div class="full-circle-wrapper">
+                    <a class="full-circle hospital" data-section="hospital" href="#">
+                        <div class="circle-content">
+                            <span class="big-circle-text">Quality</span>
+                        </div>
+                    </a>
+                </div>
+        </div>
+
+        <div class="customer-care" data-turn="from-risk-to-customer-turn">
+            <div class="mini-circle">
+                <div class="circle-content">
+                    <span class="text">Customer Care</span>
+                </div>
+            </div>
+            <div class="full-circle-wrapper">
+                <a class="full-circle customer" data-section="customer" href="#">
+                    <div class="circle-content">
+                        <span class="big-circle-text">Customer Care</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+	</div>
+    <div class="spinner-content">
+        <div class="content-wrapper">
+            <div class="content">
+                <div class="content-style risk-content">
+                    <span class="content-msg"></span>
+                    <div class="learn-more-btn">
+                        <div class="learn-more">
+                            <a href="#" class="learn-more-btn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="js/lib/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/predicata-wheel.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

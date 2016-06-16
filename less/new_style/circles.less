@@ -1,0 +1,160 @@
+@import "opacity-fix";
+#circles-wrapper{
+  text-transform: uppercase;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 410px;
+  width: 410px;
+  background: transparent;
+  transition: all 200ms ease;
+  opacity: 0;
+  -webkit-transform: scale(0.95) translateY(-10px);
+  transform: scale(0.95) translateY(-10px);
+  transition-delay: 100ms;
+  /* import each of the circle by files */
+  @import "circle-groups/risk-management";
+  @import "circle-groups/hospital-supply";
+  @import "circle-groups/customer-care";
+  &.from-risk-to-hospital-turn{
+    -webkit-animation:spinFromRiskToHospital 0.4s ease; // No more infinite
+    -moz-animation:spinFromRiskToHospital 0.4s ease;
+    animation:spinFromRiskToHospital 0.4s ease;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: forwards;
+    -ms-animation-delay: 0ms; /* moz */
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-delay: 0ms; /* moz */
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 0ms; /* Chrome, Safari, Opera */
+    animation-delay: 0ms;
+    @import "circle-turns/risk-to-hospital-turn";
+
+  }
+  &.from-risk-to-customer-turn{
+    -webkit-animation:spinFromRiskToCustomer 0.4s ease; // No more infinite
+    -moz-animation:spinFromRiskToCustomer 0.4s ease;
+    animation:spinFromRiskToCustomer 0.4s ease;
+
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: forwards;
+    -ms-animation-delay: 0ms; /* ms */
+
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-delay: 0ms; /* moz */
+
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 0ms; /* Chrome, Safari, Opera */
+    animation-delay: 0ms;
+    @import "circle-turns/risk-to-customer-turn";
+
+  }
+  &.from-hospital-to-customer-turn{
+    -webkit-animation:spinFromHospitalToCustomer 0.4s ease; // No more infinite
+    -moz-animation:spinFromHospitalToCustomer 0.4s ease;
+    animation:spinFromHospitalToCustomer 0.4s ease;
+
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    -ms-animation-delay: 0ms; /* ms */
+
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0ms; /* moz */
+
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0ms; /* Chrome, Safari, Opera */
+    animation-delay: 0ms;
+    @import "circle-turns/hospital-to-customer-turn";
+
+
+  }
+  &.from-hospital-to-risk-turn{
+    -webkit-animation:spinFromHospitalToRisk 0.4s ease; // No more infinite
+    -moz-animation:spinFromHospitalToRisk 0.4s ease;
+    animation:spinFromHospitalToRisk 0.4s ease;
+
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    -ms-animation-delay: 0ms; /* ms */
+
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0ms; /* moz */
+
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0ms; /* Chrome, Safari, Opera */
+    animation-delay: 0ms;
+    @import "circle-turns/hospital-to-risk-turn";
+
+  }
+  &.from-customer-to-risk-turn{
+    -webkit-animation:spinFromCustomerToRisk 0.4s ease; // No more infinite
+    -moz-animation:spinFromCustomerToRisk 0.4s ease;
+    animation:spinFromCustomerToRisk 0.4s ease;
+
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    -ms-animation-delay: 0ms; /* ms */
+
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0ms; /* moz */
+
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0ms; /* Chrome, Safari, Opera */
+    animation-delay: 0ms;
+    @import "circle-turns/customer-to-risk-turn";
+
+  }
+  &.from-customer-to-hospital-turn{
+    -webkit-animation:spinFromCustomerToHospital 0.4s ease; // No more infinite
+    -moz-animation:spinFromCustomerToHospital 0.4s ease;
+    animation:spinFromCustomerToHospital 0.4s ease;
+
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    -ms-animation-delay: 0ms; /* ms */
+
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0ms; /* moz */
+
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0ms; /* Chrome, Safari, Opera */
+    animation-delay: 0ms;
+    @import "circle-turns/customer-to-hospital-turn";
+
+  }
+  &.loaded{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
